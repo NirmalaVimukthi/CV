@@ -1,3 +1,6 @@
+
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="/img/cv-photo.jpg" width="400" alt="Laravel Logo"></a></p>
+
 Cover Letter 
 
 Dear Hiring Manager,
