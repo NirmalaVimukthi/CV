@@ -1,5 +1,5 @@
 
-<p align="center"><a href="/img/cv-photo.jpg" target="_blank"><img src="/img/cv-photo.jpg" width="100%" alt="Laravel Logo"></a></p>
+<p align="center"><a href="/asset/Nirmala Vimukthi Bandara-10-31-compressed.pdf" target="_blank"><img src="/img/cv-photo.jpg" width="100%" alt="Laravel Logo"></a></p>
 
 Cover Letter 
 
