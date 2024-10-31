@@ -1,5 +1,5 @@
 
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="/img/cv-photo.jpg" width="400" alt="Laravel Logo"></a></p>
+<p align="center"><a href="/img/cv-photo.jpg" target="_blank"><img src="/img/cv-photo.jpg" width="100%" alt="Laravel Logo"></a></p>
 
 Cover Letter 
 
