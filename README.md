@@ -1,3 +1,6 @@
+
+<p align="center"><a href="/asset/Nirmala Vimukthi Bandara-10-31-compressed.pdf" target="_blank"><img src="/img/cv-photo.jpg" width="100%" alt="Laravel Logo"></a></p>
+
 Cover Letter 
 
 Dear Hiring Manager,
