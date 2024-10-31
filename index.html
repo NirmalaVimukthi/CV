@@ -19,7 +19,7 @@
     
     body{
         width: 1240px;
-        height: 1754px;
+        height: 1735px;
         margin: auto;
         border:1px solid gray;
      
@@ -38,7 +38,7 @@
     }
     .slide-bar{
         height: 100%;
-        background-color: #212529;
+        background-color: #0dcaf0;
         padding: 5px;
         
             }
@@ -49,11 +49,17 @@
     height: 238px;
     background-position: center -236px;
     background-size: cover;
+
+    position: relative;
+    z-index: 15;
+    color: white !important;
      }      
 
 
     .header-profile .about-set{
         display: flex;
+        color: #343a40;
+        margin-top: 16px;
      }
 
      .header-profile .about-set li{
@@ -63,12 +69,13 @@
      .header-profile .name{    
         width: 100%;
     font-size: 45px;
-    font-weight: 600;
+    font-weight: 700;
     text-align: right;
     line-height: 40px;
     padding: 20px 10px 0px 10px;
     letter-spacing: 2px;
     text-align: right;
+    text-transform: uppercase;
 
 }
 
@@ -78,7 +85,8 @@
     font-weight: 400;
     text-align: right;
     padding: 0px 10px 10px 10px;
-    color: dimgray;
+    color: whitesmoke;
+    letter-spacing: 1.6px;
 
 }
 
@@ -87,15 +95,22 @@
 }
 
 .header-contact .contact-list{
-    display: flex;
-    font-size: 17px;
-    line-height: 19px;
-    margin: 0px 5px 10px 5px;
+      display: flex;
+    font-size: 15px;
+    line-height: 18px;
+/*    margin: 0px 5px 5px 5px;*/
+    margin: 0px 0px 5px 0px;
+    width: 270px;
+    background-color: #00bfff66;
+    padding: 2px 5px;
+    border-radius: 4px;
+    letter-spacing: 0.1px;
+
 }
 
 .header-contact .contact-list a{
     display: flex;
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -107,23 +122,24 @@
 }
      .main-content{
         padding: 5px 5px 5px 0px;
+        position: relative;
+        z-index: 9;
      }
 
      .header-title{
-        background-color: #212529;
 
-    height: 55px;
+    background-color: #2e91f3;
+    height: 48px;
     width: max-content;
     border-radius: 0px 37px 37px 0px;
     min-width: 45%;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
 
 
      }
 
      .header-title h3  {
-
-        line-height: 55px;
+    line-height: 47px;
     font-weight: 700;
     color: white;
     font-size: 28px;
@@ -133,7 +149,7 @@
 
 .content-p{
     font-size: 18px;
-    padding: 10px;
+        padding: 5px 10px;
     text-align: justify;
     line-height: 19px;
 
@@ -147,7 +163,7 @@
 }
 
 .content-list li{
-    margin-bottom: 5px;
+    margin-bottom: 0px;
     line-height: 18px;
 
 
@@ -261,12 +277,13 @@
     margin: auto;
     width: 180px;
     height: 180px;
-    background-position: center;
-    background-size: cover;
+    background-position: top center;
+    background-size: 120%;
     border-radius: 100%;
-    border: 5px solid white;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-
+    border: 3px solid white;
+    /* box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; */
+    position: relative;
+    z-index: 10;
 }
 
 .lib-set {
@@ -297,7 +314,7 @@
     position: relative;
     bottom: 0px;
     left: 0px;
-    background-color: #0a58ca;
+    background-color: #2e91f3;
     text-align: center;
     font-size: 12px;
     color:white;
@@ -327,12 +344,100 @@
     #listoftech span::after {
     content: ", ";
 }
+
+.back-line{
+    position: absolute;
+    z-index: 9;
+    width: 1240px;
+    height: 168px;
+    background-color: #2e91f3;
+    top: 20px;
+}
+
+
+/*Kandy Theme */
+.kandy-template .back-line {
+  
+    background-color: #F44336;
+
+}
+
+
+  .kandy-template   .header-contact .contact-list {
+    
+    background-color: #74040e;
+}
+
+.kandy-template .slide-bar {
+  
+    background-color: #9f0514;
+
+}
+.kandy-template .slide-bar .skill-set li .details-set .skill-bar .skill-prasentage {
+
+    background-color: #ffaf38;
+
+}
+
+
+.kandy-template  .slide-bar .skill-set li .details-set .skill-bar {
+
+    background-color: white;
+    box-shadow: unset;
+    border-bottom: 3px solid #ff6217;
+
+}
+
+.kandy-template  .header-title {
+ background-color: #F44336;
+}
+
+.kandy-template  .footer {
+ background-color: #F44336;
+}
+
+.kandy-template .full-page{
+     background-image :url(img/backofcvkandy.jpg);
+     background-position: right bottom;
+}
+.kandy-template .lib-set .logo {
+ filter: drop-shadow(2px 3px 8px #ffaf38);
+    }
+
+ .kandy-template   .content-p {
+  
+    color: #4f0000;
+
+}
+
+ .kandy-template .content-list .position {
+    color: #733535;
+
+}
+
+ .kandy-template .content-list .skills {
+  color: #733535;
+}
+
+ .kandy-template .header-profile .about-set {
+     color: #733535;
+ }
+
+@media print
+{    
+    #template-setings
+    {
+        display: none !important;
+    }
+
+
 </style>
 
 </head>
-<body>
+<body class="kandy-template">
     
     <div  class="row full-page">
+        <div class="back-line"></div>
         <div class="col-md-4 slide-bar"> 
 
 
@@ -909,7 +1014,7 @@
 
                     <span><strong>API Testing and Debugging Tools : </strong> Postman</span>
 
-                    <span><strong>Databases : </strong> MySQL, SQLite, NoSQL (Moongo DB) </span>
+                    <span><strong>Databases : </strong> MySQL, SQLite, NoSQL (Mongo DB) </span>
                     <span><strong>ORMs : </strong>Laravel Eloquent </span>
                 </p>
                 </div>
@@ -962,26 +1067,34 @@
                     </div>
 
 
+                   
+
+                    
                     <div class="contact-list">
-                        <a href="https://web.facebook.com/nirmala.vimukthi">
+                        <a target="_blank" href="https://www.linkedin.com/in/nirmala-vimukthi"> 
+                        <div class="icon"><i class="fab fa-linkedin" aria-hidden="true"></i> </div>
+                        <div class="contact"> linkedin.com/in/nirmala-vimukthi </div>
+                        </a>
+
+                    </div>
+                     <div class="contact-list">
+                        <a target="_blank" href="https://github.com/NirmalaVimukthi"> 
+                        <div class="icon"><i class="fab fa-github" aria-hidden="true"></i> </div>
+                        <div class="contact">github.com/NirmalaVimukthi </div>
+                        </a>
+
+                    </div>
+
+                     <div class="contact-list">
+                        <a target="_blank" href="https://web.facebook.com/nirmala.vimukthi">
                         <div class="icon"><i class="fab fa-facebook-square" aria-hidden="true"></i> </div>
                         <div class="contact">fb.com/nirmala.vimukthi </div>
                         </a>
                     </div>
 
 
-                    
                     <div class="contact-list">
-                        <a href="https://www.linkedin.com/in/nirmala-vimukthi"> 
-                        <div class="icon"><i class="fab fa-linkedin" aria-hidden="true"></i> </div>
-                        <div class="contact"> linkedin.com/in/nirmala-vimukthi </div>
-                        </a>
-
-                    </div>
-
-
-                    <div class="contact-list">
-                        <a href="https://www.instagram.com/nirmala_vimukthi"> 
+                        <a target="_blank" href="https://www.instagram.com/nirmala_vimukthi"> 
                         <div class="icon"><i class="fab fa-instagram" aria-hidden="true"></i> </div>
                         <div class="contact"> instagram.com/nirmala_vimukthi </div>
                         </a>
@@ -990,13 +1103,28 @@
 
                     
                     <div class="contact-list">
-                        <a href="https://x.com/VimukthiNirmala"> 
+                        <a target="_blank" href="https://x.com/VimukthiNirmala"> 
                         <div class="icon"><i class="fab fa-x" aria-hidden="true"></i> </div>
                         <div class="contact">x.com/VimukthiNirmala </div>
                         </a>
 
                     </div>
+                    <div class="contact-list">
+                        <a target="_blank" href="https://www.youtube.com/@NirmalaVimukthi"> 
+                        <div class="icon"><i class="fab fa-youtube" aria-hidden="true"></i> </div>
+                        <div class="contact">Youtube.com/@NirmalaVimukthi </div>
+                        </a>
 
+                    </div>
+
+                  
+         <div class="contact-list">
+                        <a target="_blank" href="https://www.pinterest.com/nirmalavimukthi"> 
+                        <div class="icon"><i class="fab fa-pinterest" aria-hidden="true"></i> </div>
+                        <div class="contact">Pinterest.com/nirmalavimukthi </div>
+                        </a>
+
+                    </div>
                     
                 </ul>
 
@@ -1005,7 +1133,7 @@
 
             </div>
 
-            <hr>
+            
 
             <ul class="about-set">
                 <li>
@@ -1045,7 +1173,7 @@
                             <div class="position"> - Associate Software Engineer (2021 Nov - 2022 Dec)</div>
 
                             <div class="skills"> <strong>Skills : </strong> PHP, Laravel, Rest API, Cpanel, Mysql, Android, Github, Flutter, JS, CSS</div>
-                            <div class="skills"> <strong>Full Stack Projects : </strong>Classified Web Application, Content Management Systems, Invoice Management Systems, Sri Lankan Gem Trading System, Research Paper Publication Systems, Hotel Booking Systems, Food Production Chain System (Handling Buying, Selling, and Delivery Processes), Logistics Management System, Centralized User Authentication via Phone Number, Languages Dictionary App and More API, Web, Mobile Applications  </div>
+                            <div class="skills"> <strong>Full Stack Projects : </strong>Classified Web Application, Content Management Systems(CMS), Invoice Management Systems, ERP Management Systems, CRM, Sri Lankan Gem Trading System, Research Paper Publication Systems, Hotel Booking Systems, Food Production Chain System (Handling Buying, Selling, and Delivery Processes), Logistics Management System, Centralized User Authentication via Phone Number, Languages Dictionary App and More API, Web, Mobile Applications  </div>
 
                         </li>
                 
@@ -1086,14 +1214,19 @@
       <div class="content-p">
         <ul class="content-list">
             <li>
+                <div class="row">
+                    <div class="col-md-1">
+                <img  src="img/naiwala-1.jpeg" style="    border-radius: 100%;
+    width: 56px;
+    margin: 5px;">
+    </div>
+    <div class="col-md-11">
                 <div class="company"> Graduated From Sri Lanka Institute of Advanced Technological Education -SLIATE  </div>
-                <div class="position">Higher National Diploma in Information Technology / Software Engineering (2017 - 2019)</div>
+                <div class="position"> Higher National Diploma in Information Technology / Software Engineering (2017 - 2019)</div>
+                </div>
+                </div>
             </li>
-            <li>
-                <div class="company"> Certificate of Internet Marketing  </div>
-                <div class="position"> IPS Institute (2015)</div>
-            
-            </li>
+        
             <li>
                 <div class="company"> Completed  G.C.E Advanced Level </div>
                 <div class="position">  (2015)</div>
@@ -1110,6 +1243,50 @@
         </ul>
         
         </div>
+
+        <div class="header-title">
+           <h3>CERTIFICATE</h3>
+      </div>  
+
+       <div class="content-p">
+        <div class="row">
+            <div class="col-md-6">
+                <ul class="content-list">
+                       <li>
+                        <div class="company"> CI / CD for beginners  </div>
+                        <div class="position"><img src="img/smlenrn.png" style=" border-radius: 100%;   width: 20px;"> Simplilearn(2024)</div>
+                    
+                    </li>
+                       <li>
+                        <div class="company"> Certificate for Inventory Management  </div>
+                        <div class="position"><img src="img/hplogo.png" style="    width: 20px;"> HP LIFE (2024)</div>
+                    
+                    </li>
+
+                 
+                </ul>
+         </div>
+
+               <div class="col-md-6">
+                <ul class="content-list">
+                    
+                     
+                    <li>
+                        <div class="company"> Certificate of Internet Marketing  </div>
+                        <div class="position"> IPS Institute (2016)</div>
+                    
+                    </li>
+
+                <li>
+                        <div class="company"> Certificated professional Web Designer  </div>
+                        <div class="position"> Ceylon Wordpress Academy (2016)</div>
+                    
+                    </li>
+
+                </ul>
+         </div>
+    </div>
+    </div>
 
 
             
@@ -1145,13 +1322,28 @@
     
     </div>
 
-   
-                 
+
 
         </div>
-        <div class="footer"> This CV Design Created from using HTML, CSS, Bootstrap and Fontawsome (@2024) </div>
+         
+         
+                 
+        <div class="footer"> This CV Design Created from using HTML, CSS, Bootstrap and Fontawsome (@2024)  <span id="template-setings">| Template to Click  : <a href="#" id="blueT" >Blue</a> | <a href="#" id="kandyT" > Kandy</a>  </span></div>
+
+
     </div>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js" integrity="sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="text/javascript">
+    $("#blueT").click(function(){
+            $('body').removeClass('kandy-template');
+});
+
+        $("#kandyT").click(function(){
+            $('body').addClass('kandy-template');
+});
+
+</script>
  
     
 </body>
