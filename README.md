@@ -1,6 +1,7 @@
 Cover Letter 
 
 Dear Hiring Manager,
+
 I am writing to express my interest in the Software Engineer position at [Company] , as advertised. With over five years of hands-on experience in software development, particularly with PHP MVC frameworks like Laravel and CodeIgniter, and recent expertise in Node.js frameworks and libraries such as React.js, Vue.js, Express.js, and MongoDB, I am confident in my ability to contribute effectively to your development team.
 
 My career began in 2019 at NIT Sistems (Pvt) Ltd, where I developed proficiency in PHP Laravel for backend and frontend applications. Later, I worked at Salelanka (Pvt) Ltd on SaaS applications, specifically inventory systems. At Ceylon Networks & Enterprise Solutions (Pvt) Ltd, I played a key role in converting multiple legacy systems to Laravel while developing mobile applications using Android Studio and Flutter. My promotion to software engineer in January 2023 is a testament to my dedication and expertise, especially in building complex authentication systems and handling large-scale projects for diverse industries like logistics, gem trading, and food production.
